@@ -1,0 +1,44 @@
+{
+  "name": "translator"
+, "version": "0.1.0"
+, "description": "Translator project for hacaton."
+, "homepage": "https://github.com/rithis/translator"
+, "bugs": {
+    "url": "https://github.com/rithis/translator/issues"
+  }
+, "contributors": [{
+    "name": "Vyacheslav Slinko"
+  , "email": "vyacheslav.slinko@gmail.com"
+  },{
+    "name": "Andrey Linko"
+  , "email": "su2ny@mail.ru"
+  }]
+, "main": "index"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/rithis/translator.git"
+  }
+, "scripts": {
+    "start": "coffee index.coffee"
+  , "test": "grunt"
+  }
+, "dependencies": {
+    "symfio": "~1.0"
+  , "symfio-contrib-express": "~0.1"
+  , "symfio-contrib-express-logger": "~0.1"
+  , "symfio-contrib-mongoose": "~0.1"
+  , "symfio-contrib-fixtures": "~0.1"
+  , "cruder": "~0.1"
+  }
+, "devDependencies": {
+    "symfio-suite": "~1.0"
+  , "grunt": "~0.4"
+  , "grunt-simple-mocha": "~0.3"
+  , "grunt-coffeelint": "~0.0"
+  }
+, "engines": {
+    "node": "~0.8"
+  , "npm": "~1.2"
+  , "coffee-script": "~1.6"
+  }
+}
